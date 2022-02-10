@@ -1,0 +1,30 @@
+/* set a gradient background of black and blue */
+body {
+    color: white;
+    background-color: black;
+    font-size: 25px;
+    font-family: sans-serif, 'Times New Roman;
+}
+
+header {
+    font-size:25px;
+}
+
+h1 {
+    font-size:120px;
+    text-align: center;
+}
+
+/*Reminder about flexbox*/
+
+iframe {
+    width: 1700px;
+    height: 700px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+footer {
+    background: linear-gradient(rgba(0,0,0,50), rgba(0, 0, 75, 25));
+}
